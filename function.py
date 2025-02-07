@@ -15,9 +15,9 @@ def add(a, b):
 a = add(5,54)
 print(a)
 different types to pass argument 
-def add(a=10, b=10):
-def mul(a, b=10):
-def sum(a, b):
+#def add(a=10, b=10):
+#def mul(a, b=10):
+#def sum(a, b):
 def average(*number):
   print(type(number))
   sum = 0
