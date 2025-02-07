@@ -10,13 +10,14 @@ def add(a, b):
     mul = a * b 
     div = a / b 
     subs = a - b
-    print(sum, mul, div, subs)
+    return sum, mul, div, subs
 
-add(5,5)
-# different types to pass argument 
-# def add(a=10, b=10):
-# def mul(a, b=10):
-# def sum(a, b):
+a = add(5,54)
+print(a)
+different types to pass argument 
+def add(a=10, b=10):
+def mul(a, b=10):
+def sum(a, b):
 def average(*number):
   print(type(number))
   sum = 0
